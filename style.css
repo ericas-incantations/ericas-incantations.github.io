@@ -1,0 +1,35 @@
+:root {
+  color: #20242b;
+  background: #fff;
+  font-family: system-ui, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+}
+body {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+header {
+  border-bottom: 1px solid #d7dce2;
+  padding-bottom: 0.75rem;
+  margin-bottom: 2rem;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+a { color: #164fa2; }
+a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+[aria-current="page"] { font-weight: 650; }
+h1 { font-size: 2rem; line-height: 1.2; }
+h2 { font-size: 1.2rem; line-height: 1.35; margin-top: 1.8rem; }
+p, ul { margin: 0.85rem 0; }
+li + li { margin-top: 0.5rem; }
+code { font-size: 0.9em; overflow-wrap: anywhere; }
+footer { border-top: 1px solid #d7dce2; margin-top: 2rem; padding-top: 0.5rem; }
+@media (max-width: 480px) {
+  :root { font-size: 16px; }
+  body { padding: 1rem; }
+}
